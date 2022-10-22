@@ -1,0 +1,8 @@
+#implementation of the deep exercise
+def main():
+    answer = input("What is the Answer to the Great question of Life, the Universe, and Everything? ")
+    match answer:
+        case "42" | "forty-two" | "forty two":
+            print("Yes")
+        case _:
+            print("No")
