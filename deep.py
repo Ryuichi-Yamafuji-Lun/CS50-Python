@@ -6,3 +6,5 @@ def main():
             print("Yes")
         case _:
             print("No")
+
+main()
