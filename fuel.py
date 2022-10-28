@@ -14,7 +14,8 @@ def calc(num, den):
             percent = (num/den) * 100
             if percent >= 99:
                 print("F")
-
+            elif percent == 0:
+                print("E")
             else:
                 print(f"{percent}%")
             return 0
