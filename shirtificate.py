@@ -2,8 +2,14 @@
 from fpdf import FPDF
 
 class Shirt(FPDF):
-    def __init__(self):
-        ...
+    def Page(self):
+        #Setting Title of PDF
+        self.set_font('Times', 'U', 16)
+        
+        #Render shirt png
+
+        
+
 
 
 
