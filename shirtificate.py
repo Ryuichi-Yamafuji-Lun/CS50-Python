@@ -1,16 +1,10 @@
 #implementation of cs50 shirtificate exercise
 from fpdf import FPDF
 
-class Shirt(FPDF):
-    def Page(self):
-        #Setting Title of PDF
-        self.set_font('Times', 'B', 20)
-        self.cell(80)
-        self.cell(30, 10, "CS50 Shirtificate", border = 1, align= "C")
-        self.ln(20)
-        #Render shirt png
-        self.image(".../shirtificate.jpeg", 80)
-
+class Shirt():
+    def __init__(self, name):
+        ...
+    
 def main():
     name = input("Name: ")
     shirt = Shirt()
